@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.colorful-box {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    border: 2px solid #333;
+    display: inline-block;
+}
