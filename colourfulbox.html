@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random CSS Script with Function</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .colorful-box {
+            width: 100px;
+            height: 100px;
+            margin: 20px;
+            border: 2px solid #333;
+            display: inline-block;
+        }
+    </style>
+    <script>
+        // Function to generate a random color
+        function getRandomColor() {
+            const letters = '0123456789ABCDEF';
+            let color = '#';
+            for (let i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
+
+        // Function to change the background color of an element
+        function changeColor(elementId) {
+            const element = document.getElementById(elementId);
+            if (element) {
+                element.style.backgroundColor = getRandomColor();
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Random CSS Script with Function</h1>
+
+    <div class="colorful-box" id="box1" onclick="changeColor('box1')"></div>
+    <div class="colorful-box" id="box2" onclick="changeColor('box2')"></div>
+    <div class="colorful-box" id="box3" onclick="changeColor('box3')"></div>
+</body>
+</html>
