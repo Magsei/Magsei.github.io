@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+header {
+    background-image: url(https://github.com/Magsei/magsei.github.io/blob/main/bgimage1.jpg?raw=true);
+}
+
 body {
     font-family: Arial, sans-serif;
     text-align: center;
