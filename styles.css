@@ -1,9 +1,14 @@
 
 *{
-    margin: 1px;
-    padding: 1% 1%;
+    margin: auto;
+    padding: 5px 5px;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: grey;
+    background-color: lightblue;
+}
+
+a {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -27,6 +32,16 @@ nav{
     display: inline-block;
     padding: 8px 12px;
     position: relative;
+}
+
+.text-box{
+    width: 100%;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
 }
 
 body {
