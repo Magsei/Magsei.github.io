@@ -1,6 +1,5 @@
 
 *{
-    margin: auto;
     padding: 5px 5px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: lightblue;
@@ -9,14 +8,30 @@
 a {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: white;
+}
+a:hover{
+    font-size: 125%;
+    transition: 0.3s;
+}
+
+h1 {
+    text-align: center;
 }
 
 header {
     background-image: url(https://github.com/Magsei/magsei.github.io/blob/main/bgimage1.jpg?raw=true);
 }
 
+section{
+    margin: 1% 1%;
+}
+
+p{
+    margin: 3% 3%;
+}
+
 nav{
-    display: flex;
     padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
@@ -35,19 +50,21 @@ nav{
 }
 
 .text-box{
+    margin: auto;
     width: 100%;
     color: black;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    position: relative;
     text-align: center;
 }
 
+.text-box p{
+    margin: auto;
+}
+
 body {
-    font-family: Arial, sans-serif;
     text-align: center;
 }
+
 
 .colorful-box {
     width: 100px;
