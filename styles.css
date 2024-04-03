@@ -2,7 +2,7 @@
 *{
     padding: 5px 5px;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: lightblue;
+    background-color: grey;
 }
 
 a {
@@ -19,11 +19,17 @@ h1 {
     text-align: center;
 }
 
-header {
-    background-image: url(https://github.com/Magsei/magsei.github.io/blob/main/bgimage1.jpg?raw=true);
+h2 {
+    text-align: center;
+    padding: 10px 20px;
 }
 
-section{
+h4 {
+    text-align: center;
+    font-weight: normal;
+}
+
+section {
     margin: 1% 1%;
 }
 
@@ -31,10 +37,40 @@ p{
     margin: 3% 3%;
 }
 
+tr {
+    text-align: center;
+}
+
+table {
+    padding: auto;
+}
+
+td{
+    padding: 10px 5px;
+    margin: 10px 5px;
+    text-align: center;
+}
+
 nav{
     padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
+}
+
+.my-projects {
+    background-image: url(https://github.com/Magsei/magsei.github.io/blob/main/bgimage1.jpg?raw=true);
+    background-size: 250px 250px;
+    padding: 5px 5px;
+    margin: 10px 10px;
+    flex: 1;
+}
+
+.update-box{
+    margin: auto;
+    width: 100%;
+    color: black;
+    position: relative;
+    text-align: center;
 }
 
 .nav-links{
